@@ -8,3 +8,13 @@ c:\users\user\documents\visual studio 2012\Projects\SignalRClientForConsole\Sign
 c:\users\user\documents\visual studio 2012\Projects\SignalRClientForConsole\SignalRClientForConsole\obj\Debug\SignalRClientForConsole.exe
 c:\users\user\documents\visual studio 2012\Projects\SignalRClientForConsole\SignalRClientForConsole\obj\Debug\SignalRClientForConsole.pdb
 C:\Users\USER\documents\visual studio 2012\Projects\SignalRClientForConsole\SignalRClientForConsole\obj\Debug\SignalRClientForConsole.csprojResolveAssemblyReference.cache
+D:\MyLearningProject\SignalRClientForConsole\SignalRClientForConsole\bin\Debug\SignalRClientForConsole.exe.config
+D:\MyLearningProject\SignalRClientForConsole\SignalRClientForConsole\obj\Debug\SignalRClientForConsole.exe
+D:\MyLearningProject\SignalRClientForConsole\SignalRClientForConsole\obj\Debug\SignalRClientForConsole.pdb
+D:\MyLearningProject\SignalRClientForConsole\SignalRClientForConsole\bin\Debug\SignalRClientForConsole.exe
+D:\MyLearningProject\SignalRClientForConsole\SignalRClientForConsole\bin\Debug\SignalRClientForConsole.pdb
+D:\MyLearningProject\SignalRClientForConsole\SignalRClientForConsole\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+D:\MyLearningProject\SignalRClientForConsole\SignalRClientForConsole\bin\Debug\Newtonsoft.Json.dll
+D:\MyLearningProject\SignalRClientForConsole\SignalRClientForConsole\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+D:\MyLearningProject\SignalRClientForConsole\SignalRClientForConsole\bin\Debug\Newtonsoft.Json.xml
+D:\MyLearningProject\SignalRClientForConsole\SignalRClientForConsole\obj\Debug\SignalRClientForConsole.csprojResolveAssemblyReference.cache

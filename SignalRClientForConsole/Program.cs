@@ -21,9 +21,10 @@ namespace SignalRClientForConsole
             string inputName = Console.ReadLine();
 
             var hubConnection = new HubConnection("http://localhost:50515/");
+            hubConnection.ConnectionSlow += () => Console.WriteLine("Connection problems.");
             hubConnection.Error += hubConnection_Error;
             IHubProxy consoleHubProxy = hubConnection.CreateHubProxy("HubCenter");
-            consoleHubProxy.On("broadcastMessage", (string name, string message) =>
+            consoleHubProxy.On("NewMessage", (string name, string message) =>
             {
                 Console.WriteLine("{0} say: {1}", name, message);
             });
@@ -40,16 +41,16 @@ namespace SignalRClientForConsole
                 }
                 catch(Exception ex)
                 {
-
+                    Console.WriteLine("SignalR error: {0}", ex.Message);
                 }
             }
 
             hubConnection.Stop();
         }
 
-        void hubConnection_Error(Exception obj)
+        void hubConnection_Error(Exception ex)
         {
-            
+            Console.WriteLine("SignalR error: {0}", ex.Message);
         }
     }
 
